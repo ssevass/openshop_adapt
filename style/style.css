@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.first__header{
+    height: 50px;
+    background: #313131 !important;
+}
+
+.icon{
+    color: white;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.first__lists{
+    top: 0 !important;
+    right: 0 !important;
+}
+.first__link{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 14px;
+}
+.first__links{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 14px;
+    color: #ABABAB !important;
+}
+
+.second__header{
+    height: 100px !important;
+}
+
+
+
+.header__logo{
+    margin-right: 143px;
+}
+
+
+.search__form{
+    width: 630px;
+    height: 50px;
+}
+
+.search__holder{
+    color: #BBBBBB;
+
+}
+.header__btn{
+    width: 390px;
+    height: 50px !important;
+    background: #313131;
+    color: white;
+}
+
+.third__items{
+    list-style: none;
+}
+.third__link{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: #313131 !important;
+}
+.dd__link{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 16px;
+    color: #313131 !important;
+}
+.dd__links{
+    font-family: "Noto Sans";
+    font-weight: 300;
+    font-size: 14px;
+    color: #313131 !important;
+}
+
+.carousel-item{
+    height: 600px;
+    width: 740px;
+}
+.carousel-item>img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-indicators{
+    position: relative;
+    margin-top: 50px;
+}
+.slider__btn{
+    width: 15px !important;
+    height: 15px !important;
+    background: #ABABAB !important;
+    border: none !important;
+    border-radius:50% !important;
+}
+
+.slider__btn.active{
+    width: 15px !important;
+    height: 15px !important;
+    background: #313131 !important;
+    border: none !important;
+}
+
+.right_title{
+    font-family: "Noto Sans";
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    line-height: 70px;
+    color: #313131;
+}
+
+.slider__right-btn{
+    height: 50px;
+    width: 190px;
+    background: #313131;
+    margin-top: 120px;
+}
+
+.right__link{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+
+.discount__block{
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 88px;
+}
+.discount__box:first-child{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.discount__box:nth-child(2){
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.box__img{
+    width: 100%;
+}
+.discount__box{
+    background: url(../images/discount1__bg.png);
+}
+.percents{
+    width: 70px;
+    height: 70px;
+    top: 20px;
+    left: 20px;
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    background: #313131;
+    color: white;
+}
+.box__bottom{
+    bottom: 15px;
+    left: 20px;
+}
+
+.box__title{
+    font-family: "Noto Sans";
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #313131;
+}
+.price{
+    font-family: "Noto Sans";
+    font-weight: 300;
+    font-size: 24px;
+    color: #313131;
+}
+
+.percents2{
+    width: 70px;
+    height: 70px;
+    bottom: 15px;
+    left: 20px;
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    background: #313131;
+    color: white;
+}
+
+.box__bottom2{
+    top: 15px;
+    left: 20px;
+}
+
+.discounts__btn{
+    height: 50px;
+    width: 190px;
+    background: #313131;
+    margin-top: 30px;
+}
+.discounts__link{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.device{
+    margin-top: 70px;
+}
+
+.device__boxes:hover{
+    border: 1px solid black;
+}
+.device__boxes .like{
+    visibility: hidden;
+}
+.device__boxes:hover .like{
+    visibility: visible;
+    top: 17px;
+    right: 17px;
+}
+.device__title{
+    font-family: "Noto Sans";
+    font-weight: 600;
+    font-size: 36px;
+    color: #313131;
+}
+.device__boxes .products__btn{
+    visibility: hidden;
+}
+.device__boxes:hover .products__btn{
+    visibility: visible;
+    height: 30px;
+    width: 100px;
+    background: #313131;
+    margin-bottom: 18px;
+}
+
+.device__img{
+    width: 100%;
+}
+.device__img-titles{
+    font-family: "Noto Sans";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #313131;
+}
+
+.devices{
+    margin-top: 70px;
+}
+
+.ps{
+    margin-top: 70px;
+}
+.ps__img{
+    width: 100%;
+}
+.ps__info{
+    top: 94px;
+    left: 20px;
+} 
+/* next page */
+.ps{
+    margin-top: 70px;
+}
+.xbox__info{
+   top: 10px;
+   left: 20px;
+}
+.xbox__btn{
+    bottom: 20px;
+    left: 20px;
+    height: 50px;
+    width: 190px;
+    background: #313131;
+}
+.absolute__item{
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.images{
+    margin-top: 300px;
+}
+.xbox__bottom{
+    width: 100%;
+    height: 195px;
+}
+.ps__img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.next1{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 30px;
+    color: #000;
+}
+.next2{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 30px;
+    color: #ABABAB;
+}
+.next__icon{
+    font-size: 24px;
+}
+
+/* till here */
+.ps__title{
+    font-family: "Noto Sans";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #313131;
+    margin-top: 20px;
+}
+.discounts__btn{
+    margin-top: 70px;
+}
+
+
+.footer{
+    height: 230px;
+    margin-top: 70px;
+    background: #313131 ;
+}
+
+.middle{
+    margin-right: 54px;
+}
+.form__text{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+.footer__logo{
+    width: 100%;
+    height: 100%;
+    margin-right: 143px;
+}
+
+.footer__items{
+    list-style: none;
+    margin-top: 50px;
+}
+.footer__links{
+    text-decoration: none;
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin-right: 30px;
+}
+.app__icon{
+    width: 40px;
+    height: 40px;
+    font-size: 50px;
+    margin-right: 25px;
+    color: white;
+}
+
+/* page 4 */
+
+.iphone__imgs{
+    width: 100%;
+}
+.iphone__img{
+    width: 100%;
+    border: 1px solid black;
+}
+/* .iphone__imgs:hover{
+    border: 1px solid black;
+} */
+
+.iphone__title{
+    font-family: "Noto Sans";
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+}
+.price{
+    font-family: "Noto Sans";
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+.product__highlight{
+    font-family: "Noto Sans";
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+
+}
+.highlight__items{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: black;
+}
+.xbox__btn{
+    bottom: 20px;
+    left: 20px;
+    height: 50px;
+    width: 190px;
+    background: #313131;
+    margin-right: 30px;
+}
+
+.icon__iphone{
+    font-size: 17px;
+    color: white;
+    margin-right: 10px;
+}
+.btn__link{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
