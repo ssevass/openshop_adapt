@@ -37,11 +37,7 @@ a{
     color: #ABABAB !important;
 }
 
-.second__header{
-    height: 100px !important;
-}
-
-
+/* second header */
 
 .header__logo{
     margin-right: 143px;
@@ -294,6 +290,12 @@ a{
    top: 10px;
    left: 20px;
 }
+.xbox__text{
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 24px;
+    color: #313131;
+}
 .xbox__btn{
     bottom: 20px;
     left: 20px;
@@ -337,6 +339,14 @@ a{
 
 /* till here */
 .ps__title{
+    font-family: "Noto Sans";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #313131;
+    margin-top: 20px;
+}
+.xbox__title{
     font-family: "Noto Sans";
     font-weight: 600;
     font-size: 48px;

@@ -1,0 +1,365 @@
+@media(max-width:1400px){
+    .app__icon{
+        margin-right: 0;
+        margin-left: 15px;
+    }
+    .footer__logo{
+        margin-right: 100px;
+    }
+}
+@media(max-width:1200px){
+    .search__form{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .percents {
+        width: 46px;
+        height: 45px;
+        top: 11px;
+        left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .percents2 {
+        width: 46px;
+        height: 45px;
+        bottom: 11px;
+        left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box__title{
+        font-size: 20px;
+    }
+    .price{
+        font-size: 20px;
+    }
+
+    /* second(xbox) */
+    .xbox__info{
+        top: 0;
+        left: 0;
+    }
+    .xbox__title{
+        font-size: 24px;
+    }
+    .xbox__text{
+        line-height: 10px;
+    }
+    /* iphone 3rd */
+
+    .iphone__info{
+        flex-direction: column;
+    }
+    .iphone__photos{
+        flex-direction: row !important;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .iphone__img{
+        margin-right: 40px;
+    }
+    .iphone__imgs{
+        margin-right: 40px;
+    }
+    .iphone__info{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:992px){
+    .search__form {
+        display: flex;
+        flex-direction: column;
+    }
+    .slider__content{
+        margin-top: 50px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider__right-btn{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .discount__block{
+        display: block;
+    }
+    .discount__box {
+        margin-top: 30px;
+    }
+    
+    .percents {
+    width: 70px;
+    height: 70px;
+    top: 20px;
+    left: 20px;
+    }
+    .box__title{
+        font-size: 24px;
+    }
+    .price{
+        font-size: 24px;
+    }
+    .percents2 {
+        width: 70px;
+        height: 70px;
+        bottom: 15px;
+        left: 20px;
+    }
+    .ps__info{
+        top: 10px;
+        left: 15px;
+    }
+    .ps__title{
+        font-size: 30px;
+    }
+    .discounts__btn{
+        width: 140px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .discounts__link{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .device__img-titles{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .device__img-titles{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .contact__apps{
+        flex-direction: column;
+    }
+    .search__form{
+        width: 70%;
+    }
+    .header__btn{
+        width: 100%;
+    }
+    .app__icon{
+        margin-top: 10px;
+        width: 100%;
+        height: 50px;
+        margin-right: 0;
+    }
+    /* xbox */
+    .xbox__title{
+        margin-top: 0;
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .xbox__text{
+        font-size: 15px;
+    }
+    .xbox__btn{
+        bottom: 0;
+        left: 0;
+    }
+    .next1{
+        font-size: 20px;
+    }
+    .next2{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:768px){
+    .device__block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .device__title{
+        text-align: center;
+    }
+    .device__img-titles{
+        font-size: 20px;
+    }
+    .ps__logo{
+        width: 50%;
+    }
+    .ps__title{
+        font-size: 23px;
+    }
+    .footer{
+        height: auto;
+    }
+    .footer__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__changes{
+        flex-direction: column;
+        
+    }
+    .footer__logo{
+        width: auto;
+        margin-right: 0;
+    }
+    .search__form{
+        width: 100%;
+        margin-right: auto;
+    }
+    .middle{
+        margin-right: auto;
+        margin-top: 25px;
+    }
+    .contact__apps{
+        display: flex;
+        flex-direction: row;
+    }
+    .app__icon{
+        margin-right: 10px;
+    }
+    /* xbox */
+    .xbox__title{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:576px){
+    .second__changes{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__logo{
+        margin: auto;
+    }
+    .right_title{
+        font-size: 35px;
+    }
+    .slider__right-btn{
+        width: 150px;
+        height: 40px;
+    }
+    .slider__div{
+        width: 100% !important;
+        height: 100% !important;
+        margin-top: 20px;
+    }
+    .slider__btn{
+        width: 8px !important;
+        height: 8px !important;
+    }
+    .slider__btn.active{
+        width: 10px !important;
+        height: 10px !important;
+    }
+    .discount__block{
+        margin-top: auto;
+    }
+    .discount__box{
+        margin-top: 40px;
+    }
+    .percents{
+        width: 50px;
+        height: 50px;
+        top: 10px;
+        left: 10px;
+    }
+    .percents2{
+        width: 50px;
+        height: 50px;
+        bottom: 10px;
+        left: 10px;
+    }
+    .box__title{
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+    .price{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .box__bottom{
+        bottom: 5px;
+        left: 5px;
+    }
+    .device__title{
+        font-size: 30px;
+    }
+    .device__img-titles {
+        font-size: 18px;
+    }
+    .ps__info{
+        top: 0;
+        left: 0;
+    }
+    .ps__logo{
+        width: 40%;
+    }
+    .ps__title{
+        font-size: 15px;
+        margin-top: 0;line-height: 35px;
+    }
+    .discounts__btn{
+        width: 100px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .discounts__link{
+        font-size: 13px;
+    }
+    /* xbox */
+    .xbox__info{
+        top: -55px;
+        text-align: center;
+    }
+    .xbox__btn{
+        width: 90px;
+        height: 35px;
+    }
+    .xbox__text{
+        line-height: 20px;
+    }
+    .xbox__title{
+        line-height: 20px;
+        font-size: 18px;
+    }
+    .ps{
+        margin-top: 100px;
+    }
+
+    /* 3rd iphone */
+
+    .iphone__title{
+        text-align: center;
+        font-size: 25px;
+    }
+    .price{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .iphone__btns{
+        justify-content: center;
+    }
+    .product__highlight{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .pro__max12{
+       width: 100%;
+       height: 100%;
+       margin: auto;
+    }
+    .iphone__img{
+        margin-right: 15px;
+    }
+    .iphone__imgs{
+        margin-right: 15px;
+    }
+}
